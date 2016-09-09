@@ -1,0 +1,27 @@
+<% var n=88;
+var array = ['12','121', 'test'];
+var str = "<font color=red> D@@d sadas d</font>";
+var user =1;
+var count = array.length;
+ %>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Welcome to Taivn Server <span style="color: red"> 2016 </span></h1>
+<h2><%-str%></h2>
+
+<% if (user) { %>
+  <h2><%= user %></h2>
+<% } else { %>
+ <h2>adsdsa</h2>
+<% } %>
+
+<% 
+for(var i =0;i<count;i++){ %>
+	<h3>Line <%=array[i]%></h3>
+<% } %>
+
+</body>
+</html>
